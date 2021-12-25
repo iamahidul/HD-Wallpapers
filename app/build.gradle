@@ -1,0 +1,93 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+    defaultConfig {
+        applicationId "com.androsoft.funnyvideos"
+        minSdkVersion 24
+        targetSdkVersion 30
+        versionCode 4
+        versionName "0.0.1"
+        multiDexEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+
+
+        release {
+            shrinkResources true
+            minifyEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+        }
+
+    }
+
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7'
+    implementation 'com.android.support.constraint:constraint-layout'
+
+    //Firebase database
+    implementation 'com.google.firebase:firebase-database:20.0.2'
+    //RecyclerView
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    //Multidex
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    //fab
+    implementation 'com.github.clans:fab:1.6.4'
+
+    //Permissions
+    implementation 'pub.devrel:easypermissions:3.0.0'
+
+    //Crop
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+
+    //Spinkit
+    implementation 'com.github.ybq:Android-SpinKit:1.2.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    //Ads
+
+    //Picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'com.facebook.android:audience-network-sdk:6.8.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.applovin:applovin-sdk:10.3.4'
+    implementation 'com.applovin.mediation:facebook-adapter:6.8.0.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+
+
+    apply plugin: 'applovin-quality-service'
+    applovin {
+        apiKey "TBNSgddDK1WZh2dZOBVTOfLeoz2NoarwH7D3DL34E69cQU3aOy4EiKITMTgc2o1VtpsdH6RDpWis7OFMK9sFqz"
+    }
+
+}
+apply plugin: 'com.google.gms.google-services'

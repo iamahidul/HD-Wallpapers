@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HD Wallpapers</string>
+
+
+
+    <string name="banner_home_footer">498f2c0e62a77f60</string>
+    <string name="interstitial_full_screen">68c08034e9f58008</string>
+
+
+
+    <string name="developername">ChillBox</string>
+    <string name="versionName">version 1.2</string>
+    <string name="about">About</string>
+    <string name="Share">Share</string>
+    <string name="feedback">Feedback</string>
+    <string name="moreapp">More apps</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="ctg1">4K Wallpapers</string>
+    <string name="ctg2">Nature Wallpapers</string>
+    <string name="ctg3">HD Wallpapers</string>
+    <string name="ctg4">Bikes Wallpapers</string>
+
+    <string name="categorize">Categorize</string>
+
+
+</resources>

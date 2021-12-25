@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundbb"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:ignore="ImageContrastCheck" />
+
+
+        <TextView
+           android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:id="@+id/copy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© Chill Box"
+            android:textColor="#FAFFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+

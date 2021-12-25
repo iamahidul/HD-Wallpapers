@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "631637264308",
+    "firebase_url": "https://fir-wallpaper-443cf.firebaseio.com",
+    "project_id": "fir-wallpaper-443cf",
+    "storage_bucket": "fir-wallpaper-443cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631637264308:android:f5d3f033035fb8c2ffd4e1",
+        "android_client_info": {
+          "package_name": "com.androsoft.funnyvideos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631637264308-1usjdejqff6gajikl4qv3bb8oibfd2e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRC3JJRUG1Uq0ksg11f4t9Yvz2m-M50nQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631637264308-1usjdejqff6gajikl4qv3bb8oibfd2e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
